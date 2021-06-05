@@ -26,3 +26,4 @@ BACKLIGHT_ENABLE = yes  # Enable keyboard backlight functionality
 MIDI_ENABLE = YES 		# MIDI controls
 # UNICODE_ENABLE = YES 		# Unicode
 BLUETOOTH_ENABLE = yes # Enable Bluetooth with the Adafruit EZ-Key HID
+ENCODER_ENABLE = yes
