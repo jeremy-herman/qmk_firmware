@@ -45,9 +45,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [4] = LAYOUT(
-    RESET,   KC_Q,    KC_FN7,  KC_FN8,  KC_FN9,  KC_FN10, KC_FN11, KC_FN12, KC_I,    KC_O,    KC_P,    KC_BSPC, LT(4, KC_DEL),
-    KC_LCTL, KC_A,    KC_FN4,  KC_FN5,  KC_FN6,  KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_QUOT,          KC_ENT,
-    KC_LSFT, KC_Z,    KC_FN1,  KC_FN2,  KC_FN3,  KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH,          KC_RSFT,
+    RESET,   KC_Q,    KC_F7,   KC_F8,   KC_F9,   KC_F10,  KC_F11,  KC_F12,  KC_I,    KC_O,    KC_P,    KC_BSPC, LT(4, KC_DEL),
+    KC_LCTL, KC_A,    KC_F4,   KC_F5,   KC_F6,   KC_G,    KC_H,    KC_J,    KC_K,    KC_L,    KC_QUOT,          KC_ENT,
+    KC_LSFT, KC_Z,    KC_F1,   KC_F2,   KC_F3,   KC_B,    KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH,          KC_RSFT,
     _______, KC_LGUI, KC_LALT, LT(1, KC_BSPC),   _______, MC_ONE,  LT(2, KC_SPC),    KC_RALT, KC_RCTL,          _______
   ),
 };
